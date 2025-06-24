@@ -1,0 +1,61 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1750740192
+<< nwell >>
+rect -67 500 50 892
+<< pwell >>
+rect -67 338 85 482
+rect -67 258 77 338
+<< psubdiff >>
+rect -44 401 28 476
+rect -44 339 -31 401
+rect 15 339 28 401
+rect -44 282 28 339
+<< nsubdiff >>
+rect -43 749 29 810
+rect -43 643 -30 749
+rect 16 643 29 749
+rect -43 582 29 643
+<< psubdiffcont >>
+rect -31 339 15 401
+<< nsubdiffcont >>
+rect -30 643 16 749
+<< polysilicon >>
+rect 173 538 273 620
+rect 173 492 201 538
+rect 247 492 273 538
+rect 173 441 273 492
+<< polycontact >>
+rect 201 492 247 538
+<< metal1 >>
+rect -67 810 447 930
+rect -30 749 17 810
+rect 16 643 17 749
+rect -30 632 17 643
+rect 98 632 144 810
+rect 201 538 247 584
+rect 201 446 247 492
+rect -31 401 15 412
+rect -31 278 15 339
+rect 98 278 144 412
+rect 302 328 348 760
+rect -67 158 447 278
+use nfet_03v3_P85ZLZ  nfet_03v3_P85ZLZ_0
+timestamp 1750740011
+transform 1 0 223 0 1 370
+box -162 -112 162 112
+use pfet_03v3_2YTUS3  pfet_03v3_2YTUS3_0
+timestamp 1750740011
+transform 1 0 223 0 1 696
+box -224 -196 224 196
+<< labels >>
+flabel polycontact 201 492 247 538 0 FreeSans 320 0 0 0 X
+port 0 nsew
+flabel metal1 302 492 348 538 0 FreeSans 320 0 0 0 Y
+port 1 nsew
+flabel metal1 -67 810 53 930 0 FreeSans 320 0 0 0 VDD
+port 2 nsew
+flabel metal1 -67 158 53 278 0 FreeSans 320 0 0 0 VSS
+port 4 nsew
+<< end >>

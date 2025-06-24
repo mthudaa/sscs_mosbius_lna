@@ -1,0 +1,24 @@
+
+Subcircuit summary:
+Circuit 1: inv.spice                       |Circuit 2: inv_lyt.spice                   
+-------------------------------------------|-------------------------------------------
+nfet_03v3 (1)                              |nfet_03v3 (1)                              
+pfet_03v3 (1)                              |pfet_03v3 (1)                              
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+pfet_03v3:M2 vs. pfet_03v3:0:
+ W circuit1: 6.6e-07   circuit2: 66   (delta=200%, cutoff=1%)
+ L circuit1: 5e-07   circuit2: 50   (delta=200%, cutoff=1%)
+nfet_03v3:M1 vs. nfet_03v3:1:
+ W circuit1: 4.4e-07   circuit2: 44   (delta=200%, cutoff=1%)
+ L circuit1: 5e-07   circuit2: 50   (delta=200%, cutoff=1%)
+Cells have no pins;  pin matching not needed.
+Device classes inv.spice and inv_lyt.spice are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ inv.spice

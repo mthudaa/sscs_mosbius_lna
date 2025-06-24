@@ -1,0 +1,6 @@
+* SPICE3 file created from inv.ext - technology: gf180mcuD
+
+.option scale=10n
+
+X0 Y X VDD VDD pfet_03v3 ad=2.904n pd=0.22m as=2.904n ps=0.22m w=66 l=50
+X1 Y X VSS VSS nfet_03v3 ad=1.936n pd=0.176m as=1.936n ps=0.176m w=44 l=50

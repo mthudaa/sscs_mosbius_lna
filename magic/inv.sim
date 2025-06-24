@@ -1,0 +1,16 @@
+| units: 0.5 tech: gf180mcuD format: MIT
+x X VDD Y VDD s=11616,440 d=11616,440 l=100 w=132 x=174 y=631 pfet_03v3
+x X VSS Y VSS s=7744,352 d=7744,352 l=100 w=88 x=174 y=327 nfet_03v3
+R Y 18
+= Y nfet_03v3_P85ZLZ_0/a_50_n44#
+= Y pfet_03v3_2YTUS3_0/a_50_n66#
+R X 39
+= X nfet_03v3_P85ZLZ_0/a_n50_n88#
+= X pfet_03v3_2YTUS3_0/a_n50_n110#
+R VDD 1353
+= VDD pfet_03v3_2YTUS3_0/a_n138_n66#
+= VDD pfet_03v3_2YTUS3_0/w_n224_n196#
+R VSS 26
+= VSS nfet_03v3_P85ZLZ_0/VSUBS
+= VSS nfet_03v3_P85ZLZ_0/a_n138_n44#
+= VSS pfet_03v3_2YTUS3_0/VSUBS

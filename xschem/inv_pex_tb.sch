@@ -26,7 +26,7 @@ unitx=1
 logx=0
 logy=0
 }
-C {inv.sym} 210 -390 0 0 {name=x1}
+C {inv_pex.sym} 210 -390 0 0 {name=x1}
 C {lab_wire.sym} 60 -390 0 0 {name=p3 lab=X}
 C {lab_wire.sym} 60 -100 0 0 {name=p4 lab=VGND}
 C {lab_wire.sym} 360 -410 0 1 {name=p6 lab=Y}
