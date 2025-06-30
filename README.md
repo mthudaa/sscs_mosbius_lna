@@ -1,19 +1,25 @@
-[![](https://img.shields.io/badge/Technology-CMOS%20180nm-blue.svg)](.) [![](https://img.shields.io/badge/Type-Analog%20Mixed--Signal-lightgrey.svg)](.) [![](https://img.shields.io/badge/Status-Post--Layout-brightgreen.svg)](.)
+[![](https://img.shields.io/badge/Technology-CMOS%20180nm-blue.svg)](.) [![](https://img.shields.io/badge/Type-Analog%20Mixed--Signal-lightgrey.svg)](.) [![](https://img.shields.io/badge/Status-Pre--Layout-brightgreen.svg)](.)
 
-# sscs Chipathon 2025 - MOSbius Track LNA (Low Noise Anomaly) Team
+# SSCS Chipathon 2025 - MOSbius Track LNA (Low Noise Anomaly) Team Proposal
 
 This repository contains the design proposal for Chipathon 2025 MOSbius track. MOSbius is incredible approach for transistor level learning and direct simulation from sechematic design. Our design will propose several sub-circuit :
 
-- Programmable Current Bias (using digital rheostat [previous Chipalooza project])
-- Several PMOS and NMOS Current Mirror (2x, 4x, 8x, 16x)
-- PMOS and NMOS Differential Pair
-- Programable Oscillator
+- 4-bits Programable Resistor (Previous Chipalooza Project by M Taufiqul Huda)
+- PMOS Current Mirror (2x, 4x, 8x, 16x)
+- NMOS Current Mirror (2x, 4x, 8x, 16x)
+- 2x PMOS Differential Pair Body Connected to VDD
+- 2x PMOS Differential Pair Body Connected to Pin
+- 2x NMOS Differential Pair Body Connected to VSS
+- 2x NMOS Differential Pair Body Connected to Pin
+- 2x PMOS & NMOS Stack
+- 1x PMOS-input OTA
+- 1x NMOS-input OTA
 
-- [Project Overview](#-project-overview)
-- [Key Specifications](#-key-specifications)
-- [Architecture Details](#️-architecture-details)
-- [How to Cite](#-how-to-cite)
-- [Resources](#-resources)
+<!-- - [Project Overview](#-project-overview) -->
+<!-- - [Key Specifications](#-key-specifications) -->
+<!-- - [Architecture Details](#️-architecture-details) -->
+<!-- - [How to Cite](#-how-to-cite) -->
+<!-- - [Resources](#-resources) -->
 
 ---
 
